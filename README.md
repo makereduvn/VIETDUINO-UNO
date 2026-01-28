@@ -4,13 +4,11 @@ Vietduino Uno là bo mạch phát triển do MakerEDU nghiên cứu và sản xu
 Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về hình dạng, chuẩn chân tín hiệu và cách sử dụng, cho phép người dùng tận dụng trực tiếp toàn bộ hệ sinh thái Arduino: thư viện, ví dụ mẫu, shield và cộng đồng hỗ trợ.
 ## Ưu điểm nổi bật
 - Tương thích hoàn toàn Arduino Uno, giữ nguyên form factor, vị trí chân và chuẩn giao tiếp, dễ dàng thay thế Arduino Uno trong các dự án hiện có.
-- Nâng cấp mạch nguồn xung giảm áp hiệu suất cao
-- Hiệu suất chuyển đổi cao, tỏa nhiệt thấp
-- Tiết kiệm năng lượng
-- Hỗ trợ dải điện áp đầu vào rộng 6 ~ 24VDC
+- Nâng cấp mạch nguồn xung giảm áp hiệu suất chuyển đổi cao, tỏa nhiệt thấp, tiết kiệm năng lượng.
+- Hỗ trợ dải điện áp đầu vào rộng: **6~24VDC**
 - Dòng đầu ra lớn:
-  - 5VDC: tối đa 1500mA
-  - 3.3VDC: tối đa 700mA
+  - **5VDC: tối đa 1500mA**
+  - **3.3VDC: tối đa 700mA**
 - IC chuyển đổi USB–UART chính hãng
   - Sử dụng IC CH340, đảm bảo giao tiếp ổn định, nạp chương trình tin cậy và độ bền cao khi sử dụng lâu dài.
 - Bảo vệ cổng USB máy tính

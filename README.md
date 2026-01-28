@@ -1,8 +1,90 @@
-# Vietduino Uno USB Type - C (Arduino Uno Compatible)
+# Vietduino Uno (Arduino Uno Compatible)
+## Giới thiệu sản phẩm
+Vietduino Uno là bo mạch phát triển do MakerEDU nghiên cứu và sản xuất, dựa trên nguyên mẫu Arduino Uno, hướng tới mục tiêu cung cấp một nền tảng ổn định – bền bỉ – tối ưu nguồn, đặc biệt phù hợp cho giáo dục STEM, maker, nghiên cứu và phát triển ứng dụng nhúng cơ bản.
+Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về hình dạng, chuẩn chân tín hiệu và cách sử dụng, cho phép người dùng tận dụng trực tiếp toàn bộ hệ sinh thái Arduino: thư viện, ví dụ mẫu, shield và cộng đồng hỗ trợ.
+## Ưu điểm nổi bật
+- Tương thích hoàn toàn Arduino Uno, giữ nguyên form factor, vị trí chân và chuẩn giao tiếp, dễ dàng thay thế Arduino Uno trong các dự án hiện có.
+- Nâng cấp mạch nguồn xung giảm áp hiệu suất cao
+- Hiệu suất chuyển đổi cao, tỏa nhiệt thấp
+- Tiết kiệm năng lượng
+- Hỗ trợ dải điện áp đầu vào rộng 6 ~ 24VDC
+- Dòng đầu ra lớn:
+- 5VDC: tối đa 1500mA
+- 3.3VDC: tối đa 700mA
+- IC chuyển đổi USB–UART chính hãng
+Sử dụng IC CH340, đảm bảo giao tiếp ổn định, nạp chương trình tin cậy và độ bền cao khi sử dụng lâu dài.
+
+Bảo vệ cổng USB máy tính
+Tích hợp chức năng tự động cách ly nguồn USB khi cấp nguồn ngoài qua chân VIN hoặc jack DC, giúp tăng độ an toàn trong quá trình học tập và thử nghiệm.
+
+## Thông số kỹ thuật
+### Thông tin chung
+- Model: Vietduino Uno (Arduino Uno Compatible)
+- Vi điều khiển: ATmega328P-PU (Microchip)
+- Điện áp hoạt động: 5VDC
+- Điện áp đầu vào VIN: 6 ~ 24VDC
+- Clock Speed: 16 MHz
+### Bộ nhớ
+- Flash Memory: 32 KB (0.5 KB dùng cho bootloader)
+- SRAM: 2 KB
+- EEPROM: 1 KB
+### Dòng điện
+- Dòng DC mỗi chân I/O: Tối đa 20 mA
+- Dòng DC chân 3V3: Tối đa 700 mA
+- Dòng DC chân 5V: Tối đa 1500 mA
+### Giao tiếp & nạp chương trình
+- IC USB–UART: CH340
+- Cổng kết nối máy tính: USB-C hoặc USB-B
+### Các chân tín hiệu
+- Digital I/O: 14 chân(trong đó 6 chân hỗ trợ PWM)
+- PWM: D3, D5, D6, D9, D10, D11
+- Analog Input: 6 chân (A0 ~ A5)
+- LED_BUILTIN: D13
+### Kích thước
+- Kích thước mạch: 68.6 × 53.34 mm
+## Hướng dẫn sử dụng cơ bản với Arduino IDE
+### Bước 1: Cài đặt Arduino IDE
+- Tải và cài đặt phần mềm Arduino IDE từ trang chủ Arduino phù hợp với hệ điều hành đang sử dụng.
+### Bước 2: Kết nối mạch với máy tính
+- Kết nối Vietduino Uno với máy tính bằng cáp USB.
+- Khi kết nối thành công, LED nguồn (ON) trên mạch sẽ sáng.
+### Bước 3: Cài đặt driver CH340
+- Vietduino Uno sử dụng IC CH340 để giao tiếp USB–UART.
+- Nếu máy tính chưa nhận mạch, hãy cài đặt driver CH340 phù hợp với hệ điều hành.
+### Bước 4: Cấu hình mạch trong Arduino IDE
+Thực hiện các thiết lập sau trong Arduino IDE:
+- Chọn loại board: Tools → Board → Arduino AVR Boards → Arduino Uno
+- Chọn cổng kết nối (Port): Tools → Port → chọn cổng tương ứng với Vietduino Uno (Nếu chưa xác định được, hãy rút cáp USB và cắm lại để nhận diện cổng mới xuất hiện)
+### Bước 5: Nạp chương trình thử nghiệm (Blink)
+Sau khi cấu hình xong, bạn có thể nạp chương trình Blink để kiểm tra mạch.
+Chương trình này sẽ làm LED_BUILTIN tại chân D13 chớp tắt mỗi 1 giây.
+
+/*
+  Blink
+  Turns an LED_BUILTIN on D13 of Vietduino Uno for one second,
+  then off for one second, repeatedly.
+*/
+
+void setup() {
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(13, HIGH);   // Bật LED
+  delay(1000);              // Chờ 1 giây
+  digitalWrite(13, LOW);    // Tắt LED
+  delay(1000);              // Chờ 1 giây
+}
+
+
+Nhấn Upload (hoặc Sketch → Upload) để nạp chương trình.
+Nếu LED D13 nhấp nháy đều, mạch đã hoạt động bình thường.
+
+# Vietduino Uno (Arduino Uno Compatible)
 
 ## Giới thiệu
 
-Mạch Vietduino Uno (Arduino Uno Compatible) được nghiên cứu và và sản xuất bởi MakerLab.vn dựa trên nguyên mẫu là mạch Arduino Uno với các ưu điểm vượt trội:
+Mạch Vietduino Uno (Arduino Uno Compatible) được nghiên cứu và và sản xuất bởi MakerEDU dựa trên nguyên mẫu là mạch Arduino Uno với các ưu điểm vượt trội:
 
 1. Thiết kế tương thích hoàn toàn về hình dạng, chuẩn chân tín hiệu và cách sử dụng với Arduino Uno.
 2. Sử dụng mạch nguồn xung giảm áp với ưu điểm là hiệu suất chuyển đổi cao, toả nhiệt thấp, tiết kiệm năng lượng, dải điện áp đầu vào cấp cho mạch rộng từ 6~24VDC với dòng đầu ra lớn: 5VDC/Max 1500mA, 3.3VDC / Max 700mA.

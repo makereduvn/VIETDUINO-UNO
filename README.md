@@ -9,14 +9,12 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 - Tiết kiệm năng lượng
 - Hỗ trợ dải điện áp đầu vào rộng 6 ~ 24VDC
 - Dòng đầu ra lớn:
- - 5VDC: tối đa 1500mA
- - 3.3VDC: tối đa 700mA
+  - 5VDC: tối đa 1500mA
+  - 3.3VDC: tối đa 700mA
 - IC chuyển đổi USB–UART chính hãng
-Sử dụng IC CH340, đảm bảo giao tiếp ổn định, nạp chương trình tin cậy và độ bền cao khi sử dụng lâu dài.
-
-Bảo vệ cổng USB máy tính
-Tích hợp chức năng tự động cách ly nguồn USB khi cấp nguồn ngoài qua chân VIN hoặc jack DC, giúp tăng độ an toàn trong quá trình học tập và thử nghiệm.
-
+  - Sử dụng IC CH340, đảm bảo giao tiếp ổn định, nạp chương trình tin cậy và độ bền cao khi sử dụng lâu dài.
+- Bảo vệ cổng USB máy tính
+  - Tích hợp chức năng tự động cách ly nguồn USB khi cấp nguồn ngoài qua chân VIN hoặc jack DC, giúp tăng độ an toàn trong quá trình học tập và thử nghiệm.
 ## Thông số kỹ thuật
 ### Thông tin chung
 - Model: Vietduino Uno (Arduino Uno Compatible)

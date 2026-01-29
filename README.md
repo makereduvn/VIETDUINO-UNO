@@ -92,8 +92,8 @@ void loop() {
   - Kết nối lại với máy tính để nạp chương trình
  ## Hình ảnh Sản Phẩm
  ## Lưu ý sử dụng an toàn
-![Vietduino Uno](/extras/VietduinoUno6.jpg)
-![Vietduino Uno](/extras/VietduinoUno9.jpg)
-![Vietduino Uno](/extras/VietduinoUno5.jpg)
-![Vietduino Uno](/extras/VietduinoUno10.jpg)
+![Vietduino Uno](/extras/VietduinoUno6.png)
+![Vietduino Uno](/extras/VietduinoUno9.png)
+![Vietduino Uno](/extras/VietduinoUno5.png)
+![Vietduino Uno](/extras/VietduinoUno10.png)
 ![Vietduino Uno](/extras/VietduinoUno1.jpg)

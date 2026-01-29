@@ -38,6 +38,7 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 - LED_BUILTIN: D13
 ### Kích thước
 - Kích thước mạch: 68.6 × 53.34 mm
+![Vietduino Uno](/extras/VietduinoUno1.jpg)
 ## Hướng dẫn sử dụng cơ bản với Arduino IDE
 ### Bước 1: Cài đặt Arduino IDE
 - Tải và cài đặt [Phần mềm Arduino IDE từ trang chủ Arduino](https://www.arduino.cc/en/software) phù hợp với hệ điều hành đang sử dụng.
@@ -51,6 +52,8 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 Thực hiện các thiết lập sau trong Arduino IDE:
 - Chọn loại board: Tools → Board → Arduino AVR Boards → Arduino Uno
 - Chọn cổng kết nối (Port): Tools → Port → chọn cổng tương ứng với Vietduino Uno (nếu chưa xác định được, hãy rút cáp USB và cắm lại để nhận diện cổng mới xuất hiện)
+![Vietduino Uno](/extras/VietduinoUno3.jpg)
+![Vietduino Uno](/extras/VietduinoUno4.jpg)
 ### Bước 5: Nạp chương trình thử nghiệm (Blink)
 Sau khi cấu hình xong, bạn có thể nạp chương trình Blink để kiểm tra mạch.
 Chương trình này sẽ làm LED_BUILTIN tại chân D13 chớp tắt mỗi 1 giây.
@@ -73,7 +76,7 @@ void loop() {
   delay(1000);                      // wait for a second
 }
 ```
-[![Vietduino_Uno_USB_Type_C](/image/vietunoc6.jpg)]()
+![Vietduino Uno](/extras/VietduinoUno2.jpg)
 ## Lưu ý sử dụng an toàn
 - Không đặt mạch trên bề mặt kim loại dẫn điện
 - Tránh môi trường:
@@ -88,3 +91,8 @@ void loop() {
 - Nên ngắt nguồn ngoài trước khi:
   - Thay đổi đấu nối phần cứng
   - Kết nối lại với máy tính để nạp chương trình
+ ## Hình ảnh sản phẩm
+![Vietduino Uno](/extras/VietduinoUno6.png)
+![Vietduino Uno](/extras/VietduinoUno9.png)
+![Vietduino Uno](/extras/VietduinoUno5.png)
+![Vietduino Uno](/extras/VietduinoUno10.png)

@@ -1,12 +1,12 @@
 #######################################
-# Syntax Coloring Map for exp:HCSR04  #
+# Syntax Coloring Map for exp:MakerEDU  #
 #######################################
 
 #######################################
 #       Datatypes (KEYWORD1)          # 
 #######################################
 
-HCSR04	KEYWORD1
+MakerEDU	KEYWORD1
 
 #######################################
 #  Methods and Functions (KEYWORD2)   #

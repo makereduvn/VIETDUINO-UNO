@@ -92,7 +92,5 @@ void loop() {
   - Thay đổi đấu nối phần cứng
   - Kết nối lại với máy tính để nạp chương trình
  ## Hình ảnh sản phẩm
-![Vietduino Uno](/extras/VietduinoUno6.png)
-![Vietduino Uno](/extras/VietduinoUno9.png)
 ![Vietduino Uno](/extras/VietduinoUno5.png)
-![Vietduino Uno](/extras/VietduinoUno10.png)
+![Vietduino Uno](/extras/VietduinoUno6.png)

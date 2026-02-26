@@ -76,7 +76,6 @@ void loop() {
   delay(1000);                      // wait for a second
 }
 ```
-![Vietduino Uno](/extras/VietduinoUno2.jpg)
 ## Lưu ý sử dụng an toàn
 - Không đặt mạch trên bề mặt kim loại dẫn điện
 - Tránh môi trường:

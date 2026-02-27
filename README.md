@@ -47,7 +47,7 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 - Khi kết nối thành công, LED nguồn (ON) trên mạch sẽ sáng.
 ### Bước 3: Cài đặt driver CH340
 - Vietduino Uno sử dụng IC CH340 để giao tiếp USB–UART.
-- Nếu máy tính chưa nhận mạch, hãy cài đặt Driver CH340 phù hợp với hệ điều hành.
+- Thông thường Driver sẽ tự nhận trên hầu hết các hệ điều hành, nếu máy tính chưa nhận driver, [tải và cài đặt Driver CH343P tại đây.](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)
 ### Bước 4: Cấu hình mạch trong Arduino IDE
 Thực hiện các thiết lập sau trong Arduino IDE:
 - Chọn loại board: Tools → Board → Arduino AVR Boards → Arduino Uno

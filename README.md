@@ -4,6 +4,7 @@
 Vietduino Uno là bo mạch phát triển do MakerEDU nghiên cứu và sản xuất, dựa trên nguyên mẫu Arduino Uno, được nâng cấp toàn diện về phần cứng, hướng tới độ ổn định cao, hiệu suất tốt và độ bền lâu dài – đặc biệt phù hợp cho Giáo Dục STEM, Phòng Thí Nghiệm, Maker Space, nghiên cứu và phát triển ứng dụng nhúng cơ bản.
 
 Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về hình dạng, chuẩn chân tín hiệu và cách sử dụng, cho phép người dùng tận dụng trực tiếp toàn bộ hệ sinh thái Arduino: thư viện, ví dụ mẫu, shield và cộng đồng hỗ trợ.
+
 ## Ưu điểm nổi bật
 - Tương thích hoàn toàn Arduino Uno, giữ nguyên form factor, vị trí chân và chuẩn giao tiếp, dễ dàng thay thế Arduino Uno trong các dự án hiện có.
 - Nâng cấp mạch nguồn xung giảm áp hiệu suất chuyển đổi cao, tỏa nhiệt thấp, tiết kiệm năng lượng.
@@ -11,6 +12,7 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
   - Sử dụng IC CH340, đảm bảo giao tiếp ổn định, nạp chương trình tin cậy và độ bền cao khi sử dụng lâu dài.
 - **Bảo vệ cổng USB máy tính**
   - Tích hợp chức năng tự động cách ly nguồn USB khi cấp nguồn ngoài qua chân VIN hoặc Jack DC, giúp tăng độ an toàn trong quá trình học tập và thử nghiệm.
+
 ## Thông số kỹ thuật
 ### Thông tin chung
 - Model: Vietduino Uno (Arduino Uno Compatible)
@@ -36,8 +38,8 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 - LED_BUILTIN: D13
 ![Vietduino Uno](/extras/VietduinoUno2.png)
 ### Kích thước
-- Kích thước mạch: 68.6 × 53.34 mm
 ![Vietduino Uno](/extras/VietduinoUno1.jpg)
+
 ## Hướng dẫn sử dụng cơ bản với Arduino IDE
 ### Bước 1: Cài đặt Arduino IDE
 - Tải và cài đặt [Phần mềm Arduino IDE từ trang chủ Arduino](https://www.arduino.cc/en/software) phù hợp với hệ điều hành đang sử dụng.
@@ -75,6 +77,7 @@ void loop() {
 }
 ```
 ![Vietduino Uno](/extras/VietduinoUno4.jpg)
+
 ## Lưu ý sử dụng an toàn
 - Không đặt mạch trên bề mặt kim loại dẫn điện
 - Tránh môi trường:
@@ -89,7 +92,8 @@ void loop() {
 - Nên ngắt nguồn ngoài trước khi:
   - Thay đổi đấu nối phần cứng
   - Kết nối lại với máy tính để nạp chương trình
- ## Hình ảnh sản phẩm
+
+## Hình ảnh sản phẩm
 ![Vietduino Uno](/extras/VietduinoUno5.png)
 ![Vietduino Uno](/extras/VietduinoUno6.png)
 

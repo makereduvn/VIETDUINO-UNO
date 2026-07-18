@@ -34,6 +34,7 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 - PWM: D3, D5, D6, D9, D10, D11
 - Analog Input: 6 chân (A0 ~ A5)
 - LED_BUILTIN: D13
+![Vietduino Uno](/extras/VietduinoUno2.png)
 ### Kích thước
 - Kích thước mạch: 68.6 × 53.34 mm
 ![Vietduino Uno](/extras/VietduinoUno1.jpg)

@@ -2,14 +2,11 @@
 
 ## Giới thiệu
 Vietduino Uno là bo mạch phát triển do MakerEDU nghiên cứu và sản xuất, dựa trên nguyên mẫu Arduino Uno, được nâng cấp toàn diện về phần cứng, hướng tới độ ổn định cao, hiệu suất tốt và độ bền lâu dài – đặc biệt phù hợp cho Giáo Dục STEM, Phòng Thí Nghiệm, Maker Space, nghiên cứu và phát triển ứng dụng nhúng cơ bản.
+
 Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về hình dạng, chuẩn chân tín hiệu và cách sử dụng, cho phép người dùng tận dụng trực tiếp toàn bộ hệ sinh thái Arduino: thư viện, ví dụ mẫu, shield và cộng đồng hỗ trợ.
 ## Ưu điểm nổi bật
 - Tương thích hoàn toàn Arduino Uno, giữ nguyên form factor, vị trí chân và chuẩn giao tiếp, dễ dàng thay thế Arduino Uno trong các dự án hiện có.
 - Nâng cấp mạch nguồn xung giảm áp hiệu suất chuyển đổi cao, tỏa nhiệt thấp, tiết kiệm năng lượng.
-- Hỗ trợ dải điện áp đầu vào rộng: **6 ~ 24VDC**
-- Dòng đầu ra lớn:
-  - **5VDC: tối đa 1500mA**
-  - **3.3VDC: tối đa 700mA**
 - **IC chuyển đổi USB–UART chính hãng**
   - Sử dụng IC CH340, đảm bảo giao tiếp ổn định, nạp chương trình tin cậy và độ bền cao khi sử dụng lâu dài.
 - **Bảo vệ cổng USB máy tính**
@@ -31,7 +28,7 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 - Dòng DC chân 5V: Tối đa 1500 mA
 ### Giao tiếp & nạp chương trình
 - IC USB–UART: CH340
-- Cổng kết nối máy tính: USB-C hoặc USB-B
+- Cổng kết nối máy tính: USB-C
 ### Các chân tín hiệu
 - Digital I/O: 14 chân(D0 ~ D13, trong đó 6 chân hỗ trợ PWM)
 - PWM: D3, D5, D6, D9, D10, D11
@@ -44,7 +41,7 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 ### Bước 1: Cài đặt Arduino IDE
 - Tải và cài đặt [Phần mềm Arduino IDE từ trang chủ Arduino](https://www.arduino.cc/en/software) phù hợp với hệ điều hành đang sử dụng.
 ### Bước 2: Kết nối mạch với máy tính
-- Kết nối Vietduino Uno với máy tính bằng cáp USB.
+- Kết nối Vietduino Uno với máy tính bằng cáp USB-C.
 - Khi kết nối thành công, LED nguồn (ON) trên mạch sẽ sáng.
 ### Bước 3: Cài đặt driver CH340
 - Vietduino Uno sử dụng IC CH340 để giao tiếp USB–UART.

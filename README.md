@@ -14,23 +14,28 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
   - Tích hợp chức năng tự động cách ly nguồn USB khi cấp nguồn ngoài qua chân VIN hoặc Jack DC, giúp tăng độ an toàn trong quá trình học tập và thử nghiệm.
 
 ## Thông số kỹ thuật
+
 ### Thông tin chung
 - Model: Vietduino Uno (Arduino Uno Compatible)
 - Vi điều khiển: ATmega328P-PU (Microchip)
 - Điện áp hoạt động: 5VDC
 - Điện áp đầu vào VIN: 6 ~ 24VDC
 - Clock Speed: 16MHz
+
 ### Bộ nhớ
 - Flash Memory: 32 KB (0.5 KB dùng cho bootloader)
 - SRAM: 2 KB
 - EEPROM: 1 KB
+
 ### Dòng điện
 - Dòng DC mỗi chân I/O: Tối đa 20 mA
 - Dòng DC chân 3V3: Tối đa 700 mA
 - Dòng DC chân 5V: Tối đa 1500 mA
+
 ### Giao tiếp & nạp chương trình
 - IC USB–UART: CH340
 - Cổng kết nối máy tính: USB-C
+
 ### Các chân tín hiệu
 - Digital I/O: 14 chân(D0 ~ D13, trong đó 6 chân hỗ trợ PWM)
 - PWM: D3, D5, D6, D9, D10, D11
@@ -41,19 +46,25 @@ Mạch được thiết kế tương thích hoàn toàn với Arduino Uno về h
 ![Vietduino Uno](/extras/VietduinoUno1.jpg)
 
 ## Hướng dẫn sử dụng cơ bản với Arduino IDE
+
 ### Bước 1: Cài đặt Arduino IDE
 - Tải và cài đặt [Phần mềm Arduino IDE từ trang chủ Arduino](https://www.arduino.cc/en/software) phù hợp với hệ điều hành đang sử dụng.
+
 ### Bước 2: Kết nối mạch với máy tính
 - Kết nối Vietduino Uno với máy tính bằng cáp USB-C.
 - Khi kết nối thành công, LED nguồn (ON) trên mạch sẽ sáng.
+
 ### Bước 3: Cài đặt driver CH340
 - Vietduino Uno sử dụng IC CH340 để giao tiếp USB–UART.
 - Thông thường Driver sẽ tự nhận trên hầu hết các hệ điều hành, nếu máy tính chưa nhận driver, [tải và cài đặt Driver CH343P tại đây.](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)
+
 ### Bước 4: Cấu hình mạch trong Arduino IDE
 Thực hiện các thiết lập sau trong Arduino IDE:
-- Chọn loại board: Tools → Board → Arduino AVR Boards → Arduino Uno
+- Chọn loại board: Tools → Board → Arduino AVR Boards → **Arduino Uno**
 - Chọn cổng kết nối (Port): Tools → Port → chọn cổng tương ứng với Vietduino Uno (nếu chưa xác định được, hãy rút cáp USB và cắm lại để nhận diện cổng mới xuất hiện)
+
 ![Vietduino Uno](/extras/VietduinoUno3.jpg)
+
 ### Bước 5: Nạp chương trình thử nghiệm (Blink)
 Sau khi cấu hình xong, bạn có thể nạp chương trình Blink để kiểm tra mạch.
 Chương trình này sẽ làm LED_BUILTIN tại chân D13 chớp tắt mỗi 1 giây.
